@@ -1,0 +1,22 @@
+body {
+    background: #76b852; /* fallback for old browsers */
+    background: rgb(141,194,111);
+    background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;     
+  }
+  .container button:hover,.container button:active,.container button:focus {
+    background: #dbd8d8;
+  }
+
+.card.mx-auto {
+  position: relative;
+  margin-top: 70px;
+}
+.card.mx-auto .list-group-item {
+  background-color: #f4f6f7;
+  border: 0;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
